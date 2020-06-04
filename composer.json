@@ -1,0 +1,30 @@
+{
+  "name": "scobo/scobo-meillisearch",
+  "description": "The Scobo Search MeilliSearch driver",
+  "keywords": ["search", "provider", "driver", "scobo"],
+  "homepage": "https://scobo.dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Kilgore",
+      "homepage": "https://kilgore.dev",
+      "email": "matthew@kilgore.dev",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/scobo-search/scobo/issues",
+    "source": "https://github.com/scobo-search/scobo",
+    "docs": "https://scobo.dev/docs/"
+  },
+  "require": {
+    "php": ">=7.2",
+    "scobo/scobo": "dev-master",
+    "meilisearch/meilisearch-php": "^v0.10.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scobo\\": "src/"
+    }
+  }
+}
